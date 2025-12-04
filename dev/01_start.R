@@ -65,11 +65,10 @@ usethis::use_git()
 ## Sets the remote associated with 'name' to 'url'
 usethis::use_git_remote(
   name = "origin",
-  url = "https://github.com/charles-threlkeld/chicago-real-estate.git"
+  url = "https://github.com/charles-threlkeld/chicago-real-estate/"
 )
 
 # You're now set! ----
 
 # go to dev/02_dev.R
 rstudioapi::navigateToFile("dev/02_dev.R")
-

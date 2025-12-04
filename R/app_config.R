@@ -9,7 +9,7 @@
 #'
 #' @noRd
 app_sys <- function(...) {
-  system.file(..., package = "chicago.real.estate")
+  system.file(..., package = "chirealestate")
 }
 
 

@@ -1,17 +1,21 @@
 Package: chirealestate
-Title: An Amazing Shiny App
-Version: 0.0.0.9000
+Title: Cook County Real Estate Explorer
+Version: 0.0.1
 Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+    person("Charles", "Threlkeld", , "charles.threlkeld@protonmail.com", role = c("aut", "cre"))
+Description: A suite of apps that approached real estate and land use in Cook County, IL from a variety of perspectives: home owner, builder, policy-maker. The app shows the incentives and headwinds that stakeholders have in creating our built environment.
+License: GPL (>= 3)
 Imports: 
     config,
     golem,
     shiny
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.3
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/charles-threlkeld/chicago-real-estate/
+BugReports: https://github.com/charles-threlkeld/chicago-real-estate//issues
+Language: en-US
